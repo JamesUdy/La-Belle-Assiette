@@ -109,8 +109,8 @@
             </section>           
 
             <section class="about-sec section" id="about">
-                <div class="container">
-                    <div class="row">
+                <div class="container mt-5 pt-5">
+                    <div class="row mt-5">
                         <div class="col-lg-12">
                             <div class="sec-title text-center mb-5">
                                 <p class="sec-sub-title mb-3">About Us</p>
@@ -142,7 +142,7 @@
 
             <section style="background-image: url(assets/images/menu-bg.png);"
                 class="our-menu section bg-dark repeat-img" id="menu">
-                <div class="sec-wp">
+                <div class="sec-wp mt-5 pt-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -337,7 +337,7 @@
                         </div>
 
                         <div class="row" id="gallery">
-                            <div class="col-lg-10 m-auto">
+                            <div class="col-lg-10 m-auto mt-5 pt-5">
                                 <div class="book-table-img-slider" id="icon">
                                     <div class="swiper-wrapper">
                                         <a href="assets/images/bt1.jpg" data-fancybox="table-slider"
@@ -496,7 +496,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                        <button onclick="topFunction()" class="scrolltop" id="myBtn"><span id="scrollArrow">^</span></button>
                     </div>
                 </div>
             </footer>
@@ -537,6 +537,29 @@
             <!-- <script src="assets/js/rellax-custom.js"></script> -->
             <!-- smooth scroll  -->
             <script src="assets/js/smooth-scroll.js"></script>
+
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 10px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                    mybutton.style.display = "flex";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+            </script>
+
             <!-- custom js  -->
             <script src="main.js"></script>
 
