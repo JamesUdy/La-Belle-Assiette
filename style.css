@@ -1234,7 +1234,7 @@ p {
 
 .top-footer, .bottom-footer {
     border-top: 1px solid rgb(204 204 204 / 40%);
-    position: relative;
+    position: relative; 
 }
 
 .footer-logo{
@@ -1305,27 +1305,6 @@ p {
 .name {
     color: #ff8243;
     font-weight: bold;
-}
-
-/* .scrolltop {
-    position: absolute;
-    bottom: 10px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background: linear-gradient(rgb(25, 0, 255),green);
-    color: #ff8243;
-    font-size: 26px;
-    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
-    border: none;
-} */
-
-.scrolltop:hover {
-    background:linear-gradient(rgb(255, 6, 193),yellow);
 }
 
 /* **************** responsiveness ***************** */
@@ -1656,30 +1635,26 @@ p {
     }
 }
 
-#myBtn {
+#myBtn, #scroll-book, #scroll-menu {
+    position: absolute;
     display: none;
     position: fixed;
+    bottom: 5px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
     border: none;
     width: 50px;
     height: 50px;
     outline: none;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
     border-radius: 50%;
     background: linear-gradient(rgb(25, 0, 255),green);
     color: white;
-    font-size: 26px;
+    font-size: 24px;
     transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
-    border: none;
-    justify-content: center;
-    align-items: center;
-  }
+}
   
-#myBtn:hover {
+#myBtn:hover, #scroll-book:hover, #scroll-menu:hover {
     background:linear-gradient(rgb(255, 6, 193),yellow);
     color: black;
 }
