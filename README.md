@@ -21,7 +21,7 @@ To savor the essence of **La Belle Assiette** on your own device:
 1. **Clone the Feast:** Begin by cloning this repository to your local device:
 
    ```
-   git clone https://github.com/yourusername/la-belle-assiette.git
+   git clone https://github.com/JamesUdy/La-Belle-Assiette.git
    ```
 
 2. **Indulge Your Curiosity:** Navigate into the project directory:
