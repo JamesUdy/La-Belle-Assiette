@@ -1,6 +1,6 @@
 # Restaurant Reservations and Meal Ordering Platform (La Belle Assiette)
 
-![La Belle Assiette](/assets/images/la-belle-assiette.avif)
+![La Belle Assiette](/assets/images/la-belle-assiette.png)
 
 ## Project Overview
 
